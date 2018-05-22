@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/blue.jpg"); 
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: rgb(9, 6, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-primary,.reset {
+    background-color: #f09d22;
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+.btn-primary:hover, .reset:hover{
+	background-color: #8cfa4c;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+    width: 700px;
+}
+    
+.thisChoice:hover{
+    background-color: #202364;
+    color: white;
+}
+
+h2{
+    color: #f0e222;
+}
