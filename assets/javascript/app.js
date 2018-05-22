@@ -44,7 +44,7 @@ var triviaQuestions = [{
 var gifArray = ["question1", "question2", "question3", "question4", "question5", "question6", "question7", "question8", "question9", "question10"];
 var currentQuestion; 
 var correctAnswer; 
-var incorrectAnswer; 
+var wrongAnswer; 
 var unanswered; 
 var seconds; 
 var time; 
@@ -70,11 +70,11 @@ $("#startOverButton").on('click', function(){
 function newGame(){
 	$("#finalMessage").empty();
 	$("#correctAnswers").empty();
-	$("#incorrectAnswers").empty();
+	$("#wrongAnswers").empty();
 	$("#unanswered").empty();
 	currentQuestion = 0;
 	correctAnswer = 0;
-	incorrectAnswer = 0;
+	wrongAnswer = 0;
 	unanswered = 0;
 	newQuestion();
 }
@@ -135,7 +135,7 @@ function answerPage(){
 		correctAnswer++;
 		$("#message").html(messages.correct);
 	} else if((userSelect != rightAnswerIndex) && (answered == true)){
-		incorrectAnswer++;
+		wrongAnswer++;
 		$("#message").html(messages.incorrect);
 		$("#correctAnswer").html("The correct answer was: " + rightAnswerText);
 	} else{
@@ -161,7 +161,7 @@ function scoreboard(){
 
 	$("#finalMessage").html(messages.finished);
 	$("#correctAnswers").html("Correct Answers: " + correctAnswer);
-	$("#incorrectAnswers").html("Incorrect Answers: " + incorrectAnswer);
+	$("#wrongAnswers").html("Wrong Answers: " + wrongAnswer);
 	$("#unanswered").html("Unanswered: " + unanswered);
 	$("#startOverButton").addClass('reset');
 	$("#startOverButton").show();
