@@ -12,7 +12,7 @@ var triviaQuestions = [{
 	answerList: ["Monaco", "Chile", "Russia", "Finland"],
 	answer: 0
 },{
-	question: "The Port of ________ holds the title for the busiest cruise port in the world",
+	question: "The Port of _____ holds the title for the busiest cruise port in the world",
 	answerList: ["Shanghai", "Miami", "Panama", "Hong Kong"],
 	answer: 1
 },{
@@ -20,7 +20,7 @@ var triviaQuestions = [{
 	answerList: ["1:1", "1:5", "1:10", "1:20"],
 	answer: 2
 },{
-	question: "____ is the sunniest city in Europe with 250 sunny days a year",
+	question: "______ is the sunniest city in Europe with 250 sunny days a year",
 	answerList: ["Copenhagen", "Dublin", "Paris", "Madrid"],
 	answer: 3
 },{
