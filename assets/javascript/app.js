@@ -1,3 +1,5 @@
+// original issues on this code were resolved by consulting StackOverflow (https://stackoverflow.com/questions/42614939/trivia-game-using-jquery). However, I will not use something I do not understand since it defeats the purpose of the exercise
+
 $(document).ready(function(){
 // List of questions in array form. We can use this to get the right answer by listing the position in the array.
 var triviaQuestions = [{
