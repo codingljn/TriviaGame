@@ -1,3 +1,4 @@
+$(document).ready(function(){
 // List of questions in array form. We can use this to get the right answer by listing the position in the array.
 var triviaQuestions = [{
 	question: "How many miles can ships save by going through the Panama Canal?",
@@ -168,3 +169,4 @@ function scoreboard(){
     $("#startOverButton").html('Start Over?');
     
 }
+});
