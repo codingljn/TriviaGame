@@ -6,4 +6,6 @@
 
 <p> Answer the next 10 questions and find out! Don't worry, the questions will transition automatically. Make sure you watch the time! </p>
 
+<p> Built using JavaScript & jQuery </p>
+
 <p>https://codingljn.github.io/TriviaGame/</p>
